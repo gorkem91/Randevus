@@ -1,0 +1,212 @@
+/* 
+    Created on : Mar 30, 2018, 4:49:00 PM
+    Author     : PHP
+*/
+
+/*Home Page*/
+
+/*Home Banner*/
+.home-v2 .banner-img{
+    background: url('../images/home1/poly-blue.png');
+    height: 550px;
+    padding-top: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+.home-v2 .banner_search p, .home-v3 .banner_search p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+/*Home Sections*/
+.home-v2-main .section{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.home-v2-main .service_kbse h1, .home-v2-main .article_groups h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #656565;
+    margin-bottom: 10px;
+}
+.home-v2-main .service-text {
+    font-size: 16px;
+    margin-bottom: 4rem;
+}
+.home-v2-main .service_icon {
+    width: 85px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #abc2d4;
+    background: #ececec;
+    border-radius: 50%;
+    height: 85px;
+    line-height: 85px;
+    margin-bottom: 1.2rem;
+    transition: .3s ease-in-out
+}
+.home-v2-main .service_icon:hover {
+    font-size: 1.5rem;
+    color: #fff;
+    background: #0b243b;    
+    transition: .3s ease-in-out
+}
+.home-v2-main .service_name {
+    text-align: center;
+}
+.home-v2-main .service_name h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.home-v2-main .service_kbse h5{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+.home-v2-main .article_groups{
+    padding: 3rem 0 1rem;
+}
+.home-v2-main .cat-count span {
+    font-size: 22px; 
+    font-weight: 600; 
+    line-height: 40px;
+}
+.home-v2-main .title_group {
+    padding: 5px 0 5px 14px; 
+    border-left: 2px solid #c3cfd8;     
+}
+.home-v2-main .title_group h4 {
+    font-size: 18px; 
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #082037;
+}
+.home-v2-main .article-cat-item .article-list {
+    width: 100%;
+    float: left;
+    line-height: normal;
+    margin-top: 30px;
+}
+.home-v2-main .article-cat-item .article-list li {
+    list-style: none;
+    font-weight: 300;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.home-v2-main .article-cat-item .article-list li a {
+    font-size: 16px;
+    letter-spacing: .25px;
+    word-spacing: 0px;
+    color: #81878c;
+    font-weight: 500;
+}
+.home-v2-main .article-cat-item .article-list li::before {
+    content: '\f15b';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-family: 'FontAwesome';
+    font-size: 17px;
+    color: #dbdbdb
+}
+.home-v2-main .cat-more-link {
+    color: #004dff;
+    font-weight: bold;
+    text-decoration: none
+}
+.icon_img i {
+    font-size: 60px;
+    color: #c0c0c0;
+}
+
+/*Home 3*/
+.home-v3{
+    background: url('../images/home1/home3.jpg');
+    height: 550px;    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.home-v3 .banner-img{
+    background: rgba(0, 0, 0, 0.64);
+    padding-top: 50px;
+    height: 100%
+}
+.home-v3-main .section-categories{
+    padding:  3rem 0;
+    background: url('../images/home1/darkgrain.png')
+}
+.home-v3-main .v3-group-title {
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 20px 0;
+    margin-bottom: 0rem !important;
+    background: #fff;
+    padding: 2rem 0;
+}
+.home-v3-main .v3-group-title .v3-group-anchor i {
+    font-size: 40px;
+    margin-bottom: 5px;
+    padding: 15px 15px 20px;
+    border: none;
+    color: #ec3f74;
+}
+.home-v3-main .v3-group-title:hover .v3-group-anchor i{
+    color: #cc3462;
+}
+.home-v3-main .v3-group-title .v3-group-anchor h4, .home-v3-main .v3-group-title:hover .v3-group-anchor h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.home-v3-main .v3-group-title:hover .v3-group-anchor h4 {
+    color: #ec3f74;
+}
+.home-v3-main .all_article .btn-pink {
+    background: #db1753;
+    font-weight: 600;
+}
+.home-v3-main .all_article .btn-pink:hover {
+    background: #ae0237;    
+}
+.home-v3-main .all_article {
+    margin-top: 2rem
+}
+.home-v3-main .popular-activity .sidenav-title u, .home-v3-main .recent-activity .sidenav-title u {
+    font-size: 25px;
+    border-bottom: 1px solid #db1753;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.service_kbse a {
+    text-decoration: none;
+}
+.v3-group-anchor h4{
+    word-break: break-all
+}
+
+@media (max-width:767px){
+    .home-v2 .banner-img, .home-v3 {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .home-v3{
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .home-v2-main .service_kbse h1, .home-v2-main .article_groups h1 {
+        font-size: 40px;
+    }
+    .home-v2-main .service-text {
+        margin-bottom: 2rem;
+    }
+    .home-v2-main .article_groups {
+        padding: 0rem;
+    }
+}

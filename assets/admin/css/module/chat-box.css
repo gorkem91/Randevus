@@ -1,0 +1,78 @@
+.chat-box{
+    margin-top: auto;
+    display: inline-block;
+    width: 100%;
+}
+.w-86{
+    width: 86%;
+}
+.w-89{
+    width: 89%;
+}
+.w-98{
+    width: 98%;
+}
+.msg-btn{
+    position: absolute;
+    bottom: -12px;
+    right: 22px;
+}
+.main-box{
+    height: 400px;
+    border: 1px solid #ccc;
+}
+.user-text{
+    font-size: 18px;
+    display: inline-block;
+}
+.user-list-text {
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 10px;
+    position: absolute;
+    padding-left: 10px;
+}
+.chat-date{
+    display: inline-block;
+    margin-top: 12px;
+    text-align: center;
+    padding: 6px;
+}
+.msg-reply{
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin: 10px 0px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+.msg-list table.table td, table.table th {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.msg-list table th, table td, table.table thead th {
+    border: 0px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+.no-found{
+    text-align: center;
+    font-size: 20px;
+    margin: 40px;
+    border: 1px solid;
+    padding: 10px;
+}
+.un-read {
+    float: right;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 30px;
+    color: green;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    text-align: center;
+    background: #c9f8c9;
+}
+th.active {
+    background: #f0f0f0;
+}
